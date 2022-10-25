@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
-minyon=cv2.imread("sungerbob.png")
-cv2.imshow("sungerbob.png",minyon)
+
+sunger=cv2.imread("sungerbob.png")
+cv2.imshow("sungerbob.png",sunger)
 cv2.waitKey()
 
 sunger_bob=cv2.imread("sungerbob.png",0)
